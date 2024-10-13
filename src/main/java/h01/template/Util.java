@@ -1,9 +1,9 @@
 package h01.template;
 
+import java.util.Random;
+
 import fopbot.Direction;
 import fopbot.Robot;
-
-import java.util.Random;
 
 /**
  * Utility class for the ghosts

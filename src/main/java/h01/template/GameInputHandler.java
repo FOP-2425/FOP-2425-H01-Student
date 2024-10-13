@@ -18,7 +18,7 @@ import java.util.concurrent.atomic.AtomicInteger;
  */
 public class GameInputHandler {
     /**
-     * The {@link fopbot.Direction} to turn to. If {@code -1} the robot should not turn.
+     * The {@link Direction} to turn to. If {@code -1} the robot should not turn.
      */
     private final AtomicInteger direction = new AtomicInteger(-1);
     /**
@@ -98,9 +98,9 @@ public class GameInputHandler {
     }
 
     /**
-     * Returns the current {@link fopbot.Direction} to turn to. If {@code -1} the robot should not turn.
+     * Returns the current {@link Direction} to turn to. If {@code -1} the robot should not turn.
      *
-     * @return the current {@link fopbot.Direction} to turn to. If {@code -1} the robot should not turn.
+     * @return the current {@link Direction} to turn to. If {@code -1} the robot should not turn.
      */
     public int getDirection() {
         return this.direction.get();

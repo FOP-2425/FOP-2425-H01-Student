@@ -1,10 +1,11 @@
 package h01;
 
+import org.tudalgo.algoutils.student.annotation.StudentImplementationRequired;
+
 import fopbot.Robot;
 import h01.template.Families;
 import h01.template.Ghost;
 import h01.template.TickBased;
-import org.tudalgo.algoutils.student.annotation.StudentImplementationRequired;
 
 /**
  * The {@link PinkGhost} is a {@link Robot} that looks like a pink ghost.

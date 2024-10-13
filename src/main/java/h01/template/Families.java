@@ -3,7 +3,7 @@ package h01.template;
 import fopbot.RobotFamily;
 import fopbot.SvgBasedRobotFamily;
 
-import java.awt.Color;
+import java.awt.*;
 
 public class Families {
     public static RobotFamily GHOST_ORANGE = new SvgBasedRobotFamily(

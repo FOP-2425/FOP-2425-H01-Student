@@ -1,17 +1,5 @@
 package h01.template;
 
-import fopbot.Coin;
-import fopbot.ColorProfile;
-import fopbot.GuiPanel;
-import fopbot.PaintUtils;
-import fopbot.Robot;
-import fopbot.World;
-import h01.BlueGhost;
-import h01.OrangeGhost;
-import h01.Pacman;
-import h01.PinkGhost;
-import h01.RedGhost;
-
 import java.awt.Color;
 import java.awt.Graphics;
 import java.awt.Graphics2D;
@@ -23,6 +11,18 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.Timer;
 import java.util.TimerTask;
+
+import fopbot.Coin;
+import fopbot.ColorProfile;
+import fopbot.GuiPanel;
+import fopbot.PaintUtils;
+import fopbot.Robot;
+import fopbot.World;
+import h01.BlueGhost;
+import h01.OrangeGhost;
+import h01.Pacman;
+import h01.PinkGhost;
+import h01.RedGhost;
 
 /**
  * A {@link GameControllerTemplate} controls the game loop and the

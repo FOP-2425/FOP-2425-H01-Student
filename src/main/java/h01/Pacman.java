@@ -1,10 +1,11 @@
 package h01;
 
+import org.tudalgo.algoutils.student.annotation.StudentImplementationRequired;
+
 import fopbot.Robot;
 import h01.template.Controllable;
 import h01.template.Families;
 import h01.template.TickBased;
-import org.tudalgo.algoutils.student.annotation.StudentImplementationRequired;
 
 /**
  * {@link Pacman} is a {@link Robot} that can be controlled by the user and
