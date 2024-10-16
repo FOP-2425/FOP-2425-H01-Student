@@ -30,6 +30,6 @@ public class PinkGhost extends Robot implements Ghost, TickBased {
     @Override
     @StudentImplementationRequired("H2.1")
     public void doMove() {
-        org.tudalgo.algoutils.student.Student.crash("H2.1 - Remove if implemented");
+        org.tudalgo.algoutils.student.Student.crash("H2.2 - Remove if implemented");
     }
 }
